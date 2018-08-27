@@ -1,9 +1,10 @@
-#include <iostream>
+#include <cstdlib>
 
-using namespace std;
+#include "parameters.hpp"
 
-int main()
-{
-    cout << "Hello World!" << endl;
-    return 0;
+using uc::parameters;
+
+int main(int argc, char* argv[]) {
+    parameters param(argc, argv);
+    return EXIT_SUCCESS;
 }
