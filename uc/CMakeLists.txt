@@ -3,5 +3,7 @@ include_directories(
 )
 
 add_library(uc
-        parameters.cpp
+    type.hpp
+    parameters.cpp
+    text_converter.cpp
 )

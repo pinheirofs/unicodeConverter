@@ -3,12 +3,9 @@
 
 #include <string>
 
-namespace uc {
+#include <type.hpp>
 
-enum type {
-    ATECH,
-    NO_TYPE
-};
+namespace uc {
 
 class parameters {
 public:

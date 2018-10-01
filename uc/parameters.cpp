@@ -3,6 +3,8 @@
 #include <cstring>
 #include <string>
 
+#include <type.hpp>
+
 #include "parameters.hpp"
 
 using std::string;

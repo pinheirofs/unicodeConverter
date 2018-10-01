@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.5)
 project(unicodeConverter)
 add_executable(${PROJECT_NAME} "main.cpp")
 
-set(CMAKE_CXX_FLAGS "-std=c++11")
+set(CMAKE_CXX_FLAGS "-std=c++11 -D_GLIBCXX_DEBUG")
 set(CMAKE_CXX_FLAGS_DEBUG "-g3")
 
 include_directories(
